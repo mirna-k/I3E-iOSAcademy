@@ -1,2 +1,4 @@
 # I3E-iOSAcademy
-My project created as a part of IEEE iOS Academy at FERIT
+
+## Author: mirna-k
+My student project created as a part of IEEE iOS Academy at FERIT
