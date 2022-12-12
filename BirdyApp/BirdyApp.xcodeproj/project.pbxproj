@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F4A6A5B29447A24001C8548 /* BirdyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A6A5A29447A24001C8548 /* BirdyAppApp.swift */; };
+		3F4A6A5D29447A24001C8548 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A6A5C29447A24001C8548 /* ContentView.swift */; };
+		3F4A6A5F29447A26001C8548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F4A6A5E29447A26001C8548 /* Assets.xcassets */; };
+		3F4A6A6229447A26001C8548 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F4A6A6129447A26001C8548 /* Preview Assets.xcassets */; };
+		3F4A6A6929447AD4001C8548 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A6A6829447AD4001C8548 /* Tweet.swift */; };
+		3F4A6A6B29447D3F001C8548 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A6A6A29447D3F001C8548 /* LoginView.swift */; };
+		3F4A6A6D29478D78001C8548 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A6A6C29478D78001C8548 /* SearchView.swift */; };
+		3F4A6A6F294793CA001C8548 /* TweetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A6A6E294793CA001C8548 /* TweetData.swift */; };
+		3F4A6A71294799AB001C8548 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A6A70294799AB001C8548 /* UserData.swift */; };
+		3F4A6A752947A390001C8548 /* ProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A6A742947A390001C8548 /* ProfilView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F4A6A5729447A24001C8548 /* BirdyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4A6A5A29447A24001C8548 /* BirdyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdyAppApp.swift; sourceTree = "<group>"; };
+		3F4A6A5C29447A24001C8548 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F4A6A5E29447A26001C8548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F4A6A6129447A26001C8548 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F4A6A6829447AD4001C8548 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		3F4A6A6A29447D3F001C8548 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3F4A6A6C29478D78001C8548 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		3F4A6A6E294793CA001C8548 /* TweetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetData.swift; sourceTree = "<group>"; };
+		3F4A6A70294799AB001C8548 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		3F4A6A742947A390001C8548 /* ProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F4A6A5429447A24001C8548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F4A6A4E29447A24001C8548 = {
+			isa = PBXGroup;
+			children = (
+				3F4A6A5929447A24001C8548 /* BirdyApp */,
+				3F4A6A5829447A24001C8548 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F4A6A5829447A24001C8548 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F4A6A5729447A24001C8548 /* BirdyApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F4A6A5929447A24001C8548 /* BirdyApp */ = {
+			isa = PBXGroup;
+			children = (
+				3F4A6A5A29447A24001C8548 /* BirdyAppApp.swift */,
+				3F4A6A70294799AB001C8548 /* UserData.swift */,
+				3F4A6A6C29478D78001C8548 /* SearchView.swift */,
+				3F4A6A5C29447A24001C8548 /* ContentView.swift */,
+				3F4A6A5E29447A26001C8548 /* Assets.xcassets */,
+				3F4A6A6029447A26001C8548 /* Preview Content */,
+				3F4A6A6A29447D3F001C8548 /* LoginView.swift */,
+				3F4A6A6829447AD4001C8548 /* Tweet.swift */,
+				3F4A6A6E294793CA001C8548 /* TweetData.swift */,
+				3F4A6A742947A390001C8548 /* ProfilView.swift */,
+			);
+			path = BirdyApp;
+			sourceTree = "<group>";
+		};
+		3F4A6A6029447A26001C8548 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F4A6A6129447A26001C8548 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F4A6A5629447A24001C8548 /* BirdyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F4A6A6529447A26001C8548 /* Build configuration list for PBXNativeTarget "BirdyApp" */;
+			buildPhases = (
+				3F4A6A5329447A24001C8548 /* Sources */,
+				3F4A6A5429447A24001C8548 /* Frameworks */,
+				3F4A6A5529447A24001C8548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirdyApp;
+			productName = BirdyApp;
+			productReference = 3F4A6A5729447A24001C8548 /* BirdyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F4A6A4F29447A24001C8548 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					3F4A6A5629447A24001C8548 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 3F4A6A5229447A24001C8548 /* Build configuration list for PBXProject "BirdyApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F4A6A4E29447A24001C8548;
+			productRefGroup = 3F4A6A5829447A24001C8548 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F4A6A5629447A24001C8548 /* BirdyApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F4A6A5529447A24001C8548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4A6A6229447A26001C8548 /* Preview Assets.xcassets in Resources */,
+				3F4A6A5F29447A26001C8548 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F4A6A5329447A24001C8548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4A6A6D29478D78001C8548 /* SearchView.swift in Sources */,
+				3F4A6A6929447AD4001C8548 /* Tweet.swift in Sources */,
+				3F4A6A752947A390001C8548 /* ProfilView.swift in Sources */,
+				3F4A6A71294799AB001C8548 /* UserData.swift in Sources */,
+				3F4A6A5D29447A24001C8548 /* ContentView.swift in Sources */,
+				3F4A6A6F294793CA001C8548 /* TweetData.swift in Sources */,
+				3F4A6A6B29447D3F001C8548 /* LoginView.swift in Sources */,
+				3F4A6A5B29447A24001C8548 /* BirdyAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F4A6A6329447A26001C8548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F4A6A6429447A26001C8548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F4A6A6629447A26001C8548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BirdyApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferit.BirdyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F4A6A6729447A26001C8548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BirdyApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferit.BirdyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F4A6A5229447A24001C8548 /* Build configuration list for PBXProject "BirdyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4A6A6329447A26001C8548 /* Debug */,
+				3F4A6A6429447A26001C8548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F4A6A6529447A26001C8548 /* Build configuration list for PBXNativeTarget "BirdyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4A6A6629447A26001C8548 /* Debug */,
+				3F4A6A6729447A26001C8548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F4A6A4F29447A24001C8548 /* Project object */;
+}
