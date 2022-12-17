@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct TweetModel: Identifiable {
+struct TweetModel: Identifiable, Codable {
     var id = UUID().uuidString
     
     let content: String
     let username: String
     let date: Date
-    let image: String
+    let imageURL: URL
 }
 
 struct Tweet: View {
@@ -21,12 +21,20 @@ struct Tweet: View {
     @Binding var tweet: TweetModel
     @EnvironmentObject var userData : UserData
     
+    @State var image: UIImage? = nil
+    
     var body: some View {
         HStack {
-            Image(tweet.image)
-                .resizable()
-                .frame(width: 55, height: 55)
-                .clipShape(Circle())
+            if let image{
+                Image(uiImage: image)
+                    .resizable()
+                    .frame(width: 55, height: 55)
+                    .clipShape(Circle())
+            } else {
+                Circle()
+                    .frame(width: 55, height: 55)
+                    .foregroundColor(.gray)
+            }
             
             VStack {
                 Text(tweet.username)
@@ -45,12 +53,22 @@ struct Tweet: View {
             }){
                 if userData.favouriteTweets.contains(tweet.id){
                     Image(systemName: "heart.fill")
-                        .foregroundColor(.red)
+                        .foregroundColor(.pink)
+                        .padding(.trailing, 5)
                 }
                 else{
                     Image(systemName: "heart")
-                        .foregroundColor(.red)
+                        .foregroundColor(.pink)
+                        .padding(.trailing, 5)
                 }
+            }
+        }
+        .task {
+            do{
+                let (data, _) = try await URLSession.shared.data(from: IMAGE_URL)
+                image = UIImage(data: data)
+            } catch let error{
+                print(error)
             }
         }
     }
@@ -62,7 +80,7 @@ struct Tweet_Previews: PreviewProvider {
             content: "Tweet1",
             username: "username",
             date: Date(),
-            image: "birds")))
+            imageURL: IMAGE_URL)))
             .environmentObject(UserData())
     }
 }

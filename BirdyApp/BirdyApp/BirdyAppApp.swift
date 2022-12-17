@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+let IMAGE_URL = URL(string: "https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg")!
+
 @main
 struct BirdyAppApp: App {
     
@@ -24,13 +26,14 @@ struct BirdyAppApp: App {
                     .tabItem{
                         Label("Search", systemImage: "magnifyingglass.circle")
                     }
-                ProfilView()
+                ProfileView()
                     .tabItem({
-                        Label("Profil", systemImage: "person.circle")
+                        Label("Profile", systemImage: "person.circle")
                     })
             }
             .environmentObject(tweetData)
             .environmentObject(userData)
+            .task(tweetData.fetchTweets)
         }
     }
 }
