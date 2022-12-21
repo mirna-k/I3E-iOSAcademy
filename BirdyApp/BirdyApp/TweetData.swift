@@ -29,4 +29,26 @@ class TweetData: ObservableObject{
             print(error)
         }
     }
+    
+    @MainActor @Sendable
+    func sendTweet(tweet: TweetModel) async {
+        do{
+            let encoder = JSONEncoder()
+            encoder.dateEncodingStrategy = .iso8601
+            let json = try encoder.encode(tweet)
+            
+            let url = URL(string: "https://birdy-da9a8-default-rtdb.europe-west1.firebasedatabase.app/tweets.json")!
+            var request = URLRequest(url: url)
+            
+            request.httpMethod = "POST"
+            request.httpBody = json
+            
+            let (_, response) = try await URLSession.shared.data(for: request)
+            print(response)
+            
+        } catch let error{
+            print(error)
+        }
+    }
 }
+
